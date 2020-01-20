@@ -4,4 +4,4 @@ Param(
     [string]$RGName,
 )
 
-Stop-AzureRmVM -ResourceGroupName $RGName -Name $VMName
+Start-AzureRmVM -ResourceGroupName $RGName -Name $VMName
